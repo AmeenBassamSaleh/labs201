@@ -18,7 +18,7 @@ let food = prompt('what your favorite food?, mansaf, maqluba, Mandi, Biryani');
 
 if(food.toLowerCase()== 'mansaf'|| food.toLowerCase()== 'maqluba' || food.toLowerCase()== 'Mandi' || food.toLowerCase()== 'Biryani' )
 {
-  alert('git five')
+  alert('git five')  
   score = score +1;
 }
 else 
@@ -81,7 +81,6 @@ for(let y = 0; y <= 5; y = y + 1)
     score = score +1;
     break;
   }
-  // else alert('Correct answers are mansaf, maqluba, Mandi. now we can not be friends anymore because food is so important to me with crying emoji.')
   if(y==5)
   {
     alert('You have 6 wrong answers, sorry')
@@ -90,22 +89,7 @@ for(let y = 0; y <= 5; y = y + 1)
 alert('my fav. meals are mansaf, maqluba, Mandi.')
 } Question5();
 
-//now we can not be friends anymore because food is so important to me with crying emoji.
 alert('your score is = ' + score)
-
-switch (food) {
-  case 'mansaf':
-    console.log('in all cases, you own me a mansaf!');
-    break;
-  case 'maqluba':
-    console.log('in all cases, you own me a maqluba!');
-    break;
-  case 'Mandi':
-    console.log('in all cases, you own me a Mandi');
-  default:
-    console.log('in all cases, you own me a Biryani');
-    break;
-}
 
 
 
